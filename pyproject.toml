@@ -1,0 +1,15 @@
+[project]
+name = "spotify-ai-engine"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "duckdb>=1.5.6",
+    "pandas>=3.0.6",
+    "pyarrow>=25.0.1",
+    "pydantic-ai>=2.55.0",
+    "python-dotenv>=1.2.4",
+    "sqlparse>=0.6.0",
+    "streamlit>=1.65.0",
+]
